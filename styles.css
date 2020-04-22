@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body .navbar {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10%;
+}
+
+body .navbar #navhome #homelogo {
+  position: relative;
+  padding: 10px;
+  width: 20%;
+  height: 60%;
+}
+
+body .navbar #navhome #homelogo:hover {
+  opacity: 0.5;
+}
+
+body .navbar #navitems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* text-align: center; */
+}
+
+body .navbar #navitems a {
+  text-decoration: none;
+  /* text-align: center; */
+  font-size: 20px;
+  padding: 25px;
+  color: #ff1a8b;
+}
+
+body .navbar #navitems a:hover {
+  background-color: #ff1a8b;
+  color: white;
+}
+
+body .main #landingimage {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=styles.css.map */
