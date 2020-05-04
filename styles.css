@@ -57,4 +57,40 @@ body .main #landingimage {
   width: 100vw;
   height: 100vh;
 }
+
+@media screen and (max-width: 600px) {
+  body a {
+    display: none;
+  }
+  body .icon {
+    display: block;
+  }
+  body .home {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .icon {
+    display: none;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
