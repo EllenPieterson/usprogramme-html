@@ -50,30 +50,12 @@ body .navbar #navitems a:hover {
   color: white;
 }
 
-body .main #landingimage {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-}
-
-body .main #quote h1 {
-  text-align: center;
-  padding-top: 250px;
-  margin: 0;
-  font-size: 30px;
-  color: #ff1a8b;
-  font-family: sans-serif;
-  font-style: italic;
-  line-height: 40px;
-}
-
 body .footer #copyright p {
   position: fixed;
   bottom: 0px;
   right: 50px;
   font-size: 10px;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {

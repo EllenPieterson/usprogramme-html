@@ -50,22 +50,41 @@ body .navbar #navitems a:hover {
   color: white;
 }
 
-body .main #landingimage {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
+body .main #story .us-story {
+  border: 2px solid red;
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
-body .main #quote h1 {
-  text-align: center;
-  padding-top: 250px;
-  margin: 0;
-  font-size: 30px;
-  color: #ff1a8b;
-  font-family: sans-serif;
-  font-style: italic;
-  line-height: 40px;
+body .main #mission-vision {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+}
+
+body .main #mission-vision .mission {
+  border: 2px solid blue;
+  width: 35%;
+  height: 30%;
+  margin-top: 5%;
+  /* margin-right: 10%; */
+  margin-left: 10%;
+}
+
+body .main #mission-vision .vision {
+  border: 2px solid green;
+  width: 35%;
+  height: 30%;
+  margin-top: 5%;
+  margin-right: 10%;
+  /* margin-left: 10%; */
 }
 
 body .footer #copyright p {
@@ -73,7 +92,7 @@ body .footer #copyright p {
   bottom: 0px;
   right: 50px;
   font-size: 10px;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {

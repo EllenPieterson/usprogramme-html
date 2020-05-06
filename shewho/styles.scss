@@ -26,41 +26,19 @@ body {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-                        
+
             a {
                 text-decoration: none;
                 font-size: 20px;
                 padding: 20px;
                 color: #ff1a8b;
-            } 
-            
-            a:hover {
-                background-color: #ff1a8b;
-                color: white;
             }
 
-        }
-    } 
-    
-    .main {
-        
-        #landingimage {
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            z-index: -1;
-        }
-
-        #quote {
-            h1 {
-                text-align: center;
-                padding-top: 250px;
-                margin: 0;
-                font-size: 30px;
+            a:hover {
+                background-color: #ff1a8b;
+                font-size: 20px;
+                padding: 20px;
                 color: #ff1a8b;
-                font-family: sans-serif;
-                font-style: italic;
-                line-height: 40px;
             }
         }
     }
@@ -73,7 +51,7 @@ body {
                 bottom: 0px;
                 right: 50px;
                 font-size: 10px;
-                color: white;
+                color: black;
             }
         }
     }
@@ -126,5 +104,3 @@ This class makes the topnav look good on small screens (display the links vertic
       text-align: left;
     }
 }
-
-    

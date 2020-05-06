@@ -26,41 +26,56 @@ body {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-                        
+
             a {
                 text-decoration: none;
                 font-size: 20px;
                 padding: 20px;
                 color: #ff1a8b;
-            } 
-            
+            }
+
             a:hover {
                 background-color: #ff1a8b;
                 color: white;
             }
-
         }
-    } 
-    
+
+
+    }
+
     .main {
-        
-        #landingimage {
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            z-index: -1;
+        #story {
+            .us-story {
+                border: 2px solid red;
+                width: 80%;
+                height: 30%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 5%;
+
+            }
         }
 
-        #quote {
-            h1 {
-                text-align: center;
-                padding-top: 250px;
-                margin: 0;
-                font-size: 30px;
-                color: #ff1a8b;
-                font-family: sans-serif;
-                font-style: italic;
-                line-height: 40px;
+        #mission-vision {
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+            .mission {
+                border: 2px solid blue;
+                width: 35%;
+                height: 30%;
+                margin-top: 5%;
+                /* margin-right: 10%; */
+                margin-left: 10%;
+            }
+
+            .vision {
+                border: 2px solid green;
+                width: 35%;
+                height: 30%;
+                margin-top: 5%;
+                margin-right: 10%;
+                /* margin-left: 10%; */
             }
         }
     }
@@ -73,12 +88,11 @@ body {
                 bottom: 0px;
                 right: 50px;
                 font-size: 10px;
-                color: white;
+                color: black;
             }
         }
     }
 }
-
 
 
 @media screen and (max-width: 600px) {
@@ -89,11 +103,11 @@ body {
     
         .icon {
         display: block;
-        }
+    }
 
-        .home {
-            display: block;
-        }
+    .home {
+        display: block;
+    }
         
     }
 
@@ -110,21 +124,15 @@ body {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
 This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-    .navbar.responsive {
-        position: relative;
-    }
-
+    .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-
     .navbar.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
-}
-
-    
+  }

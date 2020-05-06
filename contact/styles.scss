@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif; 
+    font-family: sans-serif;
     padding: 0px;
     margin: 0px;
 
@@ -26,42 +26,19 @@ body {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-                        
+
             a {
                 text-decoration: none;
                 font-size: 20px;
                 padding: 20px;
                 color: #ff1a8b;
-            } 
-            
+            }
+
             a:hover {
                 background-color: #ff1a8b;
                 color: white;
             }
 
-        }
-    } 
-    
-    .main {
-        
-        #landingimage {
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            z-index: -1;
-        }
-
-        #quote {
-            h1 {
-                text-align: center;
-                padding-top: 250px;
-                margin: 0;
-                font-size: 30px;
-                color: #ff1a8b;
-                font-family: sans-serif;
-                font-style: italic;
-                line-height: 40px;
-            }
         }
     }
 
@@ -73,30 +50,27 @@ body {
                 bottom: 0px;
                 right: 50px;
                 font-size: 10px;
-                color: white;
+                color: black;
             }
         }
     }
 }
 
 
-
 @media screen and (max-width: 600px) {
     body {
         a {
-        display: none;
-        }    
-    
+            display: none;
+        }
+
         .icon {
-        display: block;
+            display: block;
         }
 
         .home {
             display: block;
         }
-        
     }
-
 }
 
 @media screen and (min-width: 601px) {
@@ -104,8 +78,6 @@ body {
         display: none;
     }
 }
-
-
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
 This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -126,5 +98,3 @@ This class makes the topnav look good on small screens (display the links vertic
       text-align: left;
     }
 }
-
-    
